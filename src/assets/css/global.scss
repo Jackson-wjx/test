@@ -1,0 +1,125 @@
+// 常用变量
+$base-color: #0068e0;
+
+// 标题
+@media screen and (max-width: 767px) {
+    .common-title{
+        padding-top: 40px;
+        padding-bottom: 40px;
+        text-align: center;
+        .title-name{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            span{
+                padding: 0 15px;
+                line-height: 20px;
+                font-size: 16px;
+                font-weight: bold;
+                color:#262626;
+            }
+            img{
+                width: 18px;
+                height: auto;
+            }
+        }
+        .title-eng{
+            margin-top: 4px;
+            line-height: 16px;
+            font-size: 12px;
+            font-weight: 300;
+            color: #262626;
+        }
+        .title-desc{
+            margin-top: 4px;
+            line-height: 16px;
+            font-size: 12px;
+            font-weight: 300;
+            color: #262626;
+        }
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    .common-title{
+        padding-top: 60px;
+        padding-bottom: 60px;
+        text-align: center;
+        .title-name{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            span{
+                padding: 0 30px;
+                line-height: 32px;
+                font-size: 24px;
+                font-weight: bold;
+                color:#262626;
+            }
+            img{
+                width: 30px;
+                height: auto;
+            }
+        }
+        .title-eng{
+            margin-top: 10px;
+            line-height: 20px;
+            font-size: 14px;
+            font-weight: 300;
+            color: #262626;
+        }
+        .title-desc{
+            margin-top: 10px;
+            line-height: 20px;
+            font-size: 14px;
+            font-weight: 300;
+            color: #262626;
+        }
+    }
+}
+@media screen and (min-width: 1201px) {
+    .common-title{
+        padding-top: 80px;
+        padding-bottom: 80px;
+        text-align: center;
+        .title-name{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            span{
+                padding: 0 35px;
+                line-height: 36px;
+                font-size: 28px;
+                font-weight: bold;
+                color:#262626;
+            }
+        }
+        .title-eng{
+            margin-top: 10px;
+            line-height: 24px;
+            font-size: 18px;
+            font-weight: 300;
+            color: #262626;
+        }
+        .title-desc{
+            margin-top: 10px;
+            line-height: 24px;
+            font-size: 18px;
+            font-weight: 300;
+            color: #262626;
+        }
+    }
+}
+
+// 轮播图
+.el-carousel__indicator .el-carousel__button{
+    background-color: #dfdfdf;
+}
+.is-active .el-carousel__button{
+    background-color: #4a90e2;
+}
+@media screen and (min-width: 1201px) {
+    .el-carousel__indicator .el-carousel__button{
+        width: 35px;
+        height: 4px;
+    }   
+}
